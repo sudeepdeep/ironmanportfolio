@@ -1,0 +1,22 @@
+.rightside {
+  background-image: url("https://wallpaperaccess.com/full/175484.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  flex-grow: 1;
+  position: relative;
+}
+
+.rightText {
+  position: absolute;
+  color: white;
+  top: 40%;
+  left: 25%;
+  line-height: 4px;
+}
+.rightUsername {
+  font-size: 35px;
+}
+.rightSub {
+  border-bottom: 1px solid skyblue;
+}

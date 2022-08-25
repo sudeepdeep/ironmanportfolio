@@ -1,0 +1,57 @@
+.leftside {
+  flex-grow: 0.1;
+  position: relative;
+  background-color: #040b15;
+}
+
+.leftImage {
+  border-radius: 50%;
+  border: 8px solid #2d3040;
+  margin-top: 10px;
+}
+
+.leftUsername {
+  color: white;
+  letter-spacing: 1px;
+}
+
+.leftCircle {
+  width: 25px;
+  color: white;
+  border-radius: 50%;
+  background-color: #232631;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.leftIcons {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.leftIcon {
+  color: rgba(211, 211, 211, 0.5);
+}
+
+.leftText {
+  color: rgba(211, 211, 211, 0.5);
+}
+.active {
+  color: #126491;
+}
+
+.textactive {
+  color: white;
+}
+
+h6 {
+  position: absolute;
+  left: 25%;
+  bottom: 0;
+  color: white;
+}
